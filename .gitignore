@@ -1,0 +1,64 @@
+main.pdf
+
+# LaTeX temp files
+*.aux
+*.log
+*.toc
+*.lof
+*.fls
+*.fdb_latexmk
+*.out
+
+# Project output
+wallcalendar.zip
+doc/wallcalendar.pdf
+doc/_minted/
+doc/examples/i18n
+doc/examples/wallcalendar-helpers.lua
+doc/examples/mwe.*
+doc/examples/wallcalendar.cls
+doc/examples/cal-burst/doc_data.txt
+doc/examples/diff-old/*.pdf
+doc/examples/diff-old/doc_data.txt
+doc/examples/diff-new/*.pdf
+doc/examples/diff-new/doc_data.txt
+doc/examples/diff-compare/*.jpg
+doc/examples/diff-compare/doc_data.txt
+doc/examples/cal-burst/
+mwe.tex
+mwe.pdf
+
+# Emacs temp files
+auto/
+.auctex-auto/
+*~
+\#*\#
+*.elc
+auto-save-list
+tramp
+.\#*
+.projectile
+TAGS
+
+# Vim temp files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+*~
+tags
+
+# Misc
+.~lock.*\#
+
+.agent-shell/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
