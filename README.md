@@ -2,7 +2,7 @@
 
 An example template for [Overleaf](https://overleaf.com)
 
-Open in Overleaf: ...
+Open in Overleaf: https://www.overleaf.com/read/fgcncdmpkmcy
 
 See also `wallcalendar` package on Github: https://github.com/profound-labs/wallcalendar
 

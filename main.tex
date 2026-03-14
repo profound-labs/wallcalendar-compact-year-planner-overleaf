@@ -138,24 +138,27 @@
 
 % Weekly images
 % Images before notes so they can be background when overlapping
-\AddToShipoutPictureBG*{\put(\LenToUnit{7mm + \imagesXOffset},\LenToUnit{7mm})%
-  {%
-    \begin{minipage}[b][\calTextHeight][t]{\imagesColWidth}%
-      \vspace*{\weeklyImagesTopSep}%
-      \begin{tikzpicture}%
-        \node (bg) [
-          rectangle,
-          draw = none,
-          fill = none,
-          minimum height = \calTextHeight - \weeklyImagesTopSep,
-          minimum width = \linewidth,
-          inner sep = 0pt,
-        ] {};
-        \plannerWeeklyImages%
-      \end{tikzpicture}%
-    \end{minipage}%
-  }%
-}
+%
+% NOTE: This block seems to make the overleaf template time out for free tier accounts.
+%
+% \AddToShipoutPictureBG*{\put(\LenToUnit{7mm + \imagesXOffset},\LenToUnit{7mm})%
+%   {%
+%     \begin{minipage}[b][\calTextHeight][t]{\imagesColWidth}%
+%       \vspace*{\weeklyImagesTopSep}%
+%       \begin{tikzpicture}%
+%         \node (bg) [
+%           rectangle,
+%           draw = none,
+%           fill = none,
+%           minimum height = \calTextHeight - \weeklyImagesTopSep,
+%           minimum width = \linewidth,
+%           inner sep = 0pt,
+%         ] {};
+%         \plannerWeeklyImages%
+%       \end{tikzpicture}%
+%     \end{minipage}%
+%   }%
+% }
 
 % Weekly annotated side notes
 \AddToShipoutPictureBG*{\put(\LenToUnit{7mm + \sideNotesXOffset},\LenToUnit{7mm})%
